@@ -1,0 +1,254 @@
+body,a,ol,ul,li,h1,h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    display: inline-block;
+    width: 100%;
+}
+.header a{
+    padding-left: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(127, 127, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+.header .download{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+.header img{
+    width: 30%;
+    padding: 10px;
+}
+.banner{
+    position: sticky;
+    top: -270px;
+    background-color: #1a5ca3;
+    margin-top: 20px;
+    font-size: 30px;
+}
+section p{
+    margin-left: 20px;
+    margin-top: 0;
+}
+section .white{
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 40px;
+}
+section .blue{
+    position: absolute;
+    top: 240px;
+    color: rgb(124, 124, 207);
+    font-size: 20px;
+}
+section .order{
+    position: absolute;
+    top: 280px;
+    background-color: rgb(36, 170, 36);
+    font-size: 20px;
+    display: inline;
+    padding: 20px 100px;
+    color: white;
+    
+}
+section .image{
+    width: 70%;
+    margin-left: 363px;
+    margin-bottom: -6px;
+}
+section .for{
+    position: absolute;
+    top: 400px;
+    left: 1px;
+    color: white;
+}
+.ads{
+    position: relative;
+    top: -150px;
+    left: 2dvh;
+}
+.home{
+    color: #708aa5;
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    font-size: 30px;
+}
+.Coupons{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(89, 89, 150);
+}
+.Coupons img{
+    display: inline-block;
+    width: 46%;
+    margin: 20px;
+}
+.Coupons img:hover{
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.Explore{
+    font-size: 30px;
+    color: rgb(89, 89, 150);
+    margin-left: 20px;
+}
+.explore{
+    text-align: center;
+    color: rgba(39, 30, 30, 0.71);
+    margin: 30px;
+    font-size: 17px;
+}
+.explore li:hover{
+    position: relative;
+    top: -5px;
+    left: 2px;
+    cursor: pointer;
+    background-color: #f2f5fc;
+}
+.explore span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explore .menu{
+    display: inline-block;
+    border: 2px black solid;
+    margin: 10px 20px;
+}
+.menu .discover{
+    color: rgb(224, 31, 63);
+    border-top: 2px black solid;
+}
+.explore .store{
+    display: inline-block;
+    border: 2px black solid;
+    margin: 10px 20px;
+}
+.store .find{
+    color: rgb(224, 31, 63);
+    border-top: 2px black solid;
+}
+.explore .store img{
+    width: 80px;
+}
+.explore .party{
+    display: inline-block;
+    border: 2px black solid;
+    margin: 10px 20px;
+}
+.party .book{
+    border-top: 2px black solid;
+    color: rgb(224, 31, 63);
+}
+.explore .catering{
+    display: inline-block;
+    border: 2px black solid;
+    margin: 10px 20px;
+}
+.explore .catering img{
+    width: 100px;
+}
+.catering .booknow{
+    border-top: 2px black solid;
+    color: rgb(224, 31, 63);
+}
+ .chat{
+    position: fixed;
+    top: 520px;
+    left: 1100px;
+    width: 80px;
+} 
+.phone{
+    width: 45%;
+}
+.app{
+    background-color: #f2f5fc;
+}
+.app h1{
+    position: absolute;
+    top: 1700px;
+    left: 700px;
+    font-size: 40px;
+    color: #59688c;
+}
+.app p{
+    position: absolute;
+    top: 1750px;
+    left: 680px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #59688c;
+    line-height: 30px;
+}
+.app .play{
+    position: absolute;
+    top: 1900px;
+    left: 700px;
+    width: 200px;
+}
+.app .apple{
+    position: absolute;
+    top: 1900px;
+    left: 950px;
+    width: 200px;
+}
+.about h1{
+    color:  #006491;
+    margin: 20px;
+    font-size: 30px;
+}
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(106, 103, 103);
+    line-height: 25px;
+    font-weight: 400px;
+}
+.box{
+    margin: 20px;
+}
+.box button{
+    margin: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+.box button:hover{
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.bottom{
+    background-color: #222e3a;
+    display: flex;
+}
+.bottom ul{
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+}
+.bottom ul li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom ul h1{
+    color: #546273;
+}
+.bottom ul li img{
+    width: 30px;
+}
+
+footer{
+    background-color: #1a2735;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
