@@ -243,8 +243,11 @@ section .for{
 }
 .bottom ul li img{
     width: 30px;
+    margin: 4px;
 }
-
+.bottom .social{
+    display: flex;
+}
 footer{
     background-color: #1a2735;
     text-align: center;
