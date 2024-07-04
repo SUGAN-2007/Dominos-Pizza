@@ -32,23 +32,23 @@ body,a,ol,ul,li,h1,h2{
     margin-top: 20px;
     font-size: 30px;
 }
-section p{
+.banner p{
     margin-left: 20px;
     margin-top: 0;
 }
-section .white{
+.banner .white{
     position: absolute;
     top: 200px;
     color: white;
     font-size: 40px;
 }
-section .blue{
+.banner .blue{
     position: absolute;
     top: 240px;
     color: rgb(124, 124, 207);
     font-size: 20px;
 }
-section .order{
+.banner .order{
     position: absolute;
     top: 280px;
     background-color: rgb(36, 170, 36);
@@ -58,12 +58,12 @@ section .order{
     color: white;
     
 }
-section .image{
+.banner .image{
     width: 70%;
     margin-left: 363px;
     margin-bottom: -6px;
 }
-section .for{
+.banner .for{
     position: absolute;
     top: 400px;
     left: 1px;
@@ -164,40 +164,40 @@ section .for{
     left: 1100px;
     width: 80px;
 } 
-.phone{
-    width: 45%;
-}
 .app{
-    background-color: #f2f5fc;
+    display: flex;
 }
-.app h1{
-    position: absolute;
-    top: 1700px;
-    left: 700px;
+.phones{
+    width: 500px;
+    height: 400px;
+    width: 100%;
+}
+.icon h1{
+    color: #59688c;
     font-size: 40px;
-    color: #59688c;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
-.app p{
-    position: absolute;
-    top: 1750px;
-    left: 680px;
+.icon p{
+    padding-left: 30px;
+    line-height: 35px;
     font-size: 20px;
+    color: #455270;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #59688c;
-    line-height: 30px;
 }
-.app .play{
-    position: absolute;
-    top: 1900px;
-    left: 700px;
+.label{
+    display: flex;
+}
+.label img{
     width: 200px;
+    margin: 20px;
 }
-.app .apple{
-    position: absolute;
-    top: 1900px;
-    left: 950px;
-    width: 200px;
+.icon{
+    margin-top: 50px;
+    margin-left: 50px;
 }
+
 .about h1{
     color:  #006491;
     margin: 20px;
@@ -219,8 +219,8 @@ section .for{
 }
 .box button:hover{
     position: relative;
-    top: -5px;
-    left: 5px;
+    top: -2px;
+    left: 2px;
 }
 .bottom{
     background-color: #222e3a;
