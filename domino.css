@@ -31,6 +31,7 @@ body,a,ol,ul,li,h1,h2{
     background-color: #1a5ca3;
     margin-top: 20px;
     font-size: 30px;
+    overflow: hidden;
 }
 .banner p{
     margin-left: 20px;
@@ -166,6 +167,7 @@ body,a,ol,ul,li,h1,h2{
 } 
 .app{
     display: flex;
+    background-color: #f2f5fc;
 }
 .phones{
     width: 500px;
@@ -270,10 +272,50 @@ footer{
     .Coupons img{
         width: 45%;
     }
+    .for{
+        display: none;
+    }
     .explore {
         font-size: 13px;
     }
     .chat{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:1000px){
+    .header img{
+        width: 20%;
+    }
+    .header a{
+        font-size: 10px;
+    }
+    .for{
+        display: none;
+    }
+    .Coupons img{
+        width: 40%;
+    }
+    .explore {
+        display: flex;
+        flex-direction: column
+    }
+    .phones{
+        width: 400px;
+    }
+    .icon{
+        margin-left: 0
+    }
+    .icon p{
+        font-size: 18px;
+    }
+    .label img{
+        width: 140px;
+    }
+    .bottom .social{
+        display: inline;
+    }
+    .hello{
         display: none;
     }
 }
