@@ -197,7 +197,9 @@ body,a,ol,ul,li,h1,h2{
     margin-top: 50px;
     margin-left: 50px;
 }
-
+.about{
+    margin: 20px;
+}
 .about h1{
     color:  #006491;
     margin: 20px;
