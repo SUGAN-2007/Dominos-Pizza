@@ -403,3 +403,81 @@ footer{
         line-height: 20px;
     }
 }
+
+@media screen and (max-width:400px){
+    .header img{
+        width: 30%;
+    }
+    .header a{
+        font-size: 7px;
+        margin: 5px;
+    }
+    .banner .image{
+        margin-left: 100px;
+    }
+    .banner .white{
+        font-size: 10px;
+        top: 100px;
+    }
+    .banner .blue{
+        font-size: 7px;
+        top: 110px;
+    }
+    .banner .order{
+        font-size: 7px;
+        top: 120px;
+        padding: 5px 20px;
+    }
+    .home{
+        font-size: 20px;
+    }
+    .Coupons p{
+        font-size: 20px;
+    }
+    .explore h1{
+        font-size: 20px;
+    }
+    .explore p{
+        font-size: 10px;
+    }
+    .explore span{
+        font-size: 8px;
+    }
+    .explore br{
+        display: none;
+    }
+    .icon h1{
+        font-size: 20px;
+    }
+    .icon p{
+        font-size: 15px;
+        margin: 0;
+        padding-left: 0;
+        line-height: 18px;
+    }
+    .icon br{
+        display: none;
+    }
+    .label{
+        display: block;
+    }
+    .label img{
+        width: 120px;
+        margin: 0;
+    }
+    .label .play{
+        margin-left: 0;
+    }
+    .about h1{
+        margin: 0;
+        font-size: 16px;
+    }
+    .about p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .box button{
+        margin: 0;
+        padding: 0;
+    }
+}
