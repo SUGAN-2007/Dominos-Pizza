@@ -207,6 +207,9 @@ body,a,ol,ul,li,h1,h2{
     line-height: 25px;
     font-weight: 400px;
 }
+.about span{
+    margin-left: 20px;
+}
 .box{
     margin: 20px;
 }
