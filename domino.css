@@ -310,3 +310,49 @@ footer{
         display: none;
     }
 }
+@media screen and (max-width:800px){
+    .header img{
+        display: block;
+    }
+    .banner .image{
+        margin-left: 260px;
+    }
+    .banner .white {
+        top: 150px;
+        font-size: 30px;
+    }
+    .banner .blue{
+        font-size: 15px;
+        top: 180px;
+    }
+    .banner .order{
+        font-size: 20px;
+        top: 230px;
+        padding: 10px 40px;
+    }
+    .app{
+        display: block;
+    }
+    .phones{
+        width: 400px;
+        height: 300px;
+        margin-left: 70px;   
+    }
+    .icon{
+        text-align: center;
+    }
+    .label img{
+        width: 200px;
+        justify-content: center;
+    }
+    .label .play{
+        margin-left:80px;
+    }
+    .bottom{
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px){
+
+}
