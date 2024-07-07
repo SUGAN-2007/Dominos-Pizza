@@ -159,12 +159,6 @@ body,a,ol,ul,li,h1,h2{
     border-top: 2px black solid;
     color: rgb(224, 31, 63);
 }
- .chat{
-    position: fixed;
-    top: 520px;
-    left: 1100px;
-    width: 80px;
-} 
 .app{
     display: flex;
     background-color: #f2f5fc;
@@ -277,9 +271,6 @@ footer{
     }
     .explore {
         font-size: 13px;
-    }
-    .chat{
-        display: none;
     }
 }
 
