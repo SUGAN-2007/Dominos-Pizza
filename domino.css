@@ -297,16 +297,25 @@ footer{
         flex-direction: column
     }
     .phones{
-        width: 400px;
+        display: block;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .icon{
         margin-left: 0
+    }
+    .app br{
+        display: none;
     }
     .icon p{
         font-size: 18px;
     }
     .label img{
-        width: 140px;
+        display: inline-block;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .bottom .social{
         display: inline;
@@ -353,8 +362,10 @@ footer{
         text-align: center;
     }
     .label img{
-        width: 200px;
-        justify-content: center;
+        display: inline-block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .label .play{
         margin-left:80px;
@@ -400,7 +411,10 @@ footer{
         display: none;
     }
     .label img{
-        width: 150px;
+        display: inline-block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .label .play{
         margin-left: 20px;
