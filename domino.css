@@ -267,7 +267,8 @@ footer{
         display: none;
     }
     .Coupons img{
-        width: 45%;
+        width: 49%;
+        margin: 0;
     }
     .for{
         display: none;
@@ -288,7 +289,8 @@ footer{
         display: none;
     }
     .Coupons img{
-        width: 40%;
+        width: 49%;
+        margin: 0;
     }
     .explore {
         display: flex;
@@ -333,6 +335,10 @@ footer{
         font-size: 20px;
         top: 230px;
         padding: 10px 40px;
+    }
+    .Coupons img{
+        margin: 0;
+        width: 45%;
     }
     .app{
         display: block;
