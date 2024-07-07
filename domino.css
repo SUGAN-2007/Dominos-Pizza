@@ -313,6 +313,7 @@ footer{
 @media screen and (max-width:800px){
     .header img{
         display: block;
+        width: 30%;
     }
     .banner .image{
         margin-left: 260px;
@@ -354,5 +355,51 @@ footer{
 }
 
 @media screen and (max-width:600px){
-
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .download{
+        display: inline;
+        margin-left: 0;
+    }
+    .banner{
+        margin-top: 0;
+    }
+    .banner .image{
+        margin-left: 150px;
+    }
+    .banner .white{
+        font-size: 20px;
+        top: 130px;
+    }
+    .banner .blue{
+        font-size: 10px;
+        top: 150px;
+    }
+    .banner .order{
+        font-size: 10px;
+        top: 170px;
+    }
+    .Coupons img{
+        display: block;
+        width: 100%;
+        margin-left: -10px;
+    }
+    .phones{
+        display: none;
+    }
+    .label img{
+        width: 150px;
+    }
+    .label .play{
+        margin-left: 20px;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
