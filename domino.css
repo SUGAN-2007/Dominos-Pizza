@@ -260,6 +260,7 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 @media screen and (max-width:1200px){
     .header a{
         font-weight: 0;
@@ -280,6 +281,7 @@ footer{
         font-size: 13px;
     }
 }
+
 @media  screen and (max-width:1000px){
     .header img{
         width: 20%;
@@ -326,6 +328,7 @@ footer{
         display: none;
     }
 }
+
 @media screen and (max-width:800px){
     .header img{
         display: block;
