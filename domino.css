@@ -75,6 +75,7 @@ body,a,ol,ul,li,h1,h2{
     position: absolute;
     top: 450px;
     left: 2dvh;
+    cursor: pointer;
 }
 .home{
     color: #708aa5;
@@ -282,7 +283,6 @@ footer{
         font-size: 13px;
     }
 }
-
 @media  screen and (max-width:1000px){
     .header img{
         width: 20%;
