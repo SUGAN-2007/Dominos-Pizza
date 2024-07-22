@@ -57,6 +57,7 @@ body,a,ol,ul,li,h1,h2{
     display: inline;
     padding: 20px 100px;
     color: white;
+    cursor: pointer;
     
 }
 .banner .image{
@@ -328,7 +329,6 @@ footer{
         display: none;
     }
 }
-
 @media screen and (max-width:800px){
     .header img{
         display: block;
