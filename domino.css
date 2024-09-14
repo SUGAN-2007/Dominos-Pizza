@@ -88,6 +88,9 @@ body,a,ol,ul,li,h1,h2{
     margin-left: 20px;
     color: rgb(89, 89, 150);
 }
+.Coupon image{
+    display: flex;
+}
 .Coupons img{
     display: inline-block;
     width: 46%;
