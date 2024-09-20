@@ -382,6 +382,7 @@ footer{
         display: block;
     }
 }
+
 @media screen and (max-width:600px){
     .header{
         display: flex;
@@ -433,6 +434,7 @@ footer{
         font-size: 15px;
         line-height: 20px;
     }
+
 }
 @media screen and (max-width:400px){
     .header img{
